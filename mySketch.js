@@ -117,12 +117,6 @@ function draw() {
   texture(texm2);
   plane(h/20,h/40);
   pop();
-	
-  push();
-  fill(255);
-  textSize(15);
-  text('Nhấn giữ chuột để di chuyển xunh quanh', width/2-150, height-30);
-  pop();
   
   pop();
 }
